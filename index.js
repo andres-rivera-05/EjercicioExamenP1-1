@@ -26,11 +26,23 @@ function calcularDescuento(){
         descuentoText = "Descuento 40%";
       }
       
-      //document.getElementById("descuento").value = (descuento * 100).toFixed(2);
+      //document.getElementById("descuento").value = (descuento * 100);
       document.getElementById("descuento").value= descuentoText;
       
       var total = subtotal - (subtotal * descuento);
       document.getElementById("total").value = total.toFixed(2);
 
 
+}
+
+
+function limpiar(){
+    document.getElementById("Producto1").value = "";
+    document.getElementById("Producto2").value = "";
+    document.getElementById("Producto3").value = "";
+    document.getElementById("Producto4").value = "";
+    document.getElementById("Producto5").value = "";
+    document.getElementById("subtotal").value = "";
+    document.getElementById("descuento").value = "Descuento 0%";
+    document.getElementById("total").value = "";
 }
