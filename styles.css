@@ -1,13 +1,17 @@
 body{
-    background: rgb(29, 29, 29);
+    background: rgb(14 13 13);
 }
-
 .text-product {
     font-family: sans-serif;
     font-weight: 700;
-    background-color: #ebebeb;
+    color: white;
+    background-color: #101010;
 }
-
 .caja{
     background-color: gray;
+}
+
+.col-4 {
+    border: solid 1px #383838;
+    background: #1e1e1e;
 }
